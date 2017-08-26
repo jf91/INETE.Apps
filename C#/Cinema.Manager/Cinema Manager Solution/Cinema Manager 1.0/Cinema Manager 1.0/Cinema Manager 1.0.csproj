@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0173286E-943D-4A30-B778-5E0D831874F5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Cinema_Manager_1._0</RootNamespace>
+    <AssemblyName>Cinema Manager 1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>LOGO.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ListViewPrinter">
+      <HintPath>F:\02 - BitCorporation\C# Projects\Projects\BitCorp Visual Studio\Cinema Manager\DLLs\ListViewPrinter.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.3.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ObjectListView">
+      <HintPath>F:\02 - BitCorporation\C# Projects\Projects\BitCorp Visual Studio\Cinema Manager\DLLs\ObjectListView.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CLASS_GLOBAL_VARIABLES.cs" />
+    <Compile Include="FORMS ADMIN\FORM_ADMIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_ADMIN.Designer.cs">
+      <DependentUpon>FORM_ADMIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_ADMIN_CONTABILIDADE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_ADMIN_CONTABILIDADE.Designer.cs">
+      <DependentUpon>FORM_ADMIN_CONTABILIDADE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_ADMIN_FUNCIONARIOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_ADMIN_FUNCIONARIOS.Designer.cs">
+      <DependentUpon>FORM_ADMIN_FUNCIONARIOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_ADMIN_SALAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_ADMIN_SALAS.Designer.cs">
+      <DependentUpon>FORM_ADMIN_SALAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_DEFINICOES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_DEFINICOES.Designer.cs">
+      <DependentUpon>FORM_DEFINICOES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_DEFINICOES_LIGACAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS ADMIN\FORM_DEFINICOES_LIGACAO.Designer.cs">
+      <DependentUpon>FORM_DEFINICOES_LIGACAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO.Designer.cs">
+      <DependentUpon>FORM_GESTAO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_ANUNCIOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_ANUNCIOS.Designer.cs">
+      <DependentUpon>FORM_GESTAO_ANUNCIOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_FILMES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_FILMES.Designer.cs">
+      <DependentUpon>FORM_GESTAO_FILMES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_FILMES_RESUMOS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_FILMES_RESUMOS.Designer.cs">
+      <DependentUpon>FORM_GESTAO_FILMES_RESUMOS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_NACIONALIDADES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_NACIONALIDADES.Designer.cs">
+      <DependentUpon>FORM_GESTAO_NACIONALIDADES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS.Designer.cs">
+      <DependentUpon>FORM_GESTAO_PESSOAS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS_ACTORES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS_ACTORES.Designer.cs">
+      <DependentUpon>FORM_GESTAO_PESSOAS_ACTORES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS_PRODUCTORES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS_PRODUCTORES.Designer.cs">
+      <DependentUpon>FORM_GESTAO_PESSOAS_PRODUCTORES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS_REALIZADORES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS_REALIZADORES.Designer.cs">
+      <DependentUpon>FORM_GESTAO_PESSOAS_REALIZADORES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_SESSOES.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORMS_GESTAO\FORM_GESTAO_SESSOES.Designer.cs">
+      <DependentUpon>FORM_GESTAO_SESSOES.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_INICIO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_INICIO.Designer.cs">
+      <DependentUpon>FORM_INICIO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FORM_LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FORM_LOGIN.Designer.cs">
+      <DependentUpon>FORM_LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FORMS ADMIN\FORM_ADMIN.resx">
+      <DependentUpon>FORM_ADMIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS ADMIN\FORM_ADMIN_CONTABILIDADE.resx">
+      <DependentUpon>FORM_ADMIN_CONTABILIDADE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS ADMIN\FORM_ADMIN_FUNCIONARIOS.resx">
+      <DependentUpon>FORM_ADMIN_FUNCIONARIOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS ADMIN\FORM_ADMIN_SALAS.resx">
+      <DependentUpon>FORM_ADMIN_SALAS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS ADMIN\FORM_DEFINICOES.resx">
+      <DependentUpon>FORM_DEFINICOES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS ADMIN\FORM_DEFINICOES_LIGACAO.resx">
+      <DependentUpon>FORM_DEFINICOES_LIGACAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS_GESTAO\FORM_GESTAO.resx">
+      <DependentUpon>FORM_GESTAO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS_GESTAO\FORM_GESTAO_ANUNCIOS.resx">
+      <DependentUpon>FORM_GESTAO_ANUNCIOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS_GESTAO\FORM_GESTAO_FILMES.resx">
+      <DependentUpon>FORM_GESTAO_FILMES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS_GESTAO\FORM_GESTAO_FILMES_RESUMOS.resx">
+      <DependentUpon>FORM_GESTAO_FILMES_RESUMOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS_GESTAO\FORM_GESTAO_NACIONALIDADES.resx">
+      <DependentUpon>FORM_GESTAO_NACIONALIDADES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS.resx">
+      <DependentUpon>FORM_GESTAO_PESSOAS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS_ACTORES.resx">
+      <DependentUpon>FORM_GESTAO_PESSOAS_ACTORES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS_PRODUCTORES.resx">
+      <DependentUpon>FORM_GESTAO_PESSOAS_PRODUCTORES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS_GESTAO\FORM_GESTAO_PESSOAS_REALIZADORES.resx">
+      <DependentUpon>FORM_GESTAO_PESSOAS_REALIZADORES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORMS_GESTAO\FORM_GESTAO_SESSOES.resx">
+      <DependentUpon>FORM_GESTAO_SESSOES.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_INICIO.resx">
+      <DependentUpon>FORM_INICIO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FORM_LOGIN.resx">
+      <DependentUpon>FORM_LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO Grande.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LOGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LETTERS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fechar 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="LOGO.ico" />
+    <None Include="Resources\Anuncios.png" />
+    <None Include="Resources\Sessoes Small.png" />
+    <None Include="Resources\Sessoes.png" />
+    <None Include="Resources\Retroceder.png" />
+    <None Include="Resources\search-icon.png" />
+    <None Include="Resources\Nacionalidades.png" />
+    <None Include="Resources\Productores.png" />
+    <None Include="Resources\Actores.png" />
+    <None Include="Resources\Realizadores.png" />
+    <None Include="Resources\Users3.png" />
+    <None Include="Resources\Pessoas.png" />
+    <None Include="Resources\Filmes1.png" />
+    <None Include="Resources\Filmes.png" />
+    <None Include="Resources\Cinema Manager Background JPG.jpg" />
+    <None Include="Resources\Cinema Background.jpg" />
+    <None Include="Resources\Definicoes.png" />
+    <None Include="Resources\Contabilidade.png" />
+    <None Include="Resources\Rooms1.png" />
+    <None Include="Resources\Users2.png" />
+    <None Include="Resources\Gravar.png" />
+    <None Include="Resources\Cash-register-icon.png" />
+    <None Include="Resources\cash-register-icon %281%29.png" />
+    <None Include="Resources\Settings-icon.png" />
+    <None Include="Resources\Users1.png" />
+    <None Include="Resources\Rooms.png" />
+    <None Include="Resources\Users.png" />
+    <None Include="Resources\Users 2.png" />
+    <None Include="Resources\Salas.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="FORMS_BILHETEIRA\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,29 @@
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\bin\Debug\Cinema Manager 1.0.exe.config
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\bin\Debug\Cinema Manager 1.0.exe
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\bin\Debug\Cinema Manager 1.0.pdb
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORM_ADMIN.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_ADMIN.FORM_ADMIN_CONTABILIDADE.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_ADMIN.FORM_ADMIN_FUNCIONARIOS.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_ADMIN.FORM_ADMIN_SALAS.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_ADMIN.FORM_DEFINICOES.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_ADMIN.FORM_DEFINICOES_LIGACAO.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORM_INICIO.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORM_LOGIN.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.Properties.Resources.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema Manager 1.0.csproj.GenerateResource.Cache
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema Manager 1.0.exe
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema Manager 1.0.pdb
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_GESTAO.FORM_GESTAO.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_GESTAO.FORM_GESTAO_FILMES.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_GESTAO.FORM_GESTAO_PESSOAS.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_GESTAO.FORM_GESTAO_PESSOAS_ACTORES.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_GESTAO.FORM_GESTAO_PESSOAS_PRODUCTORES.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_GESTAO.FORM_GESTAO_PESSOAS_REALIZADORES.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema Manager 1.0.csprojResolveAssemblyReference.cache
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_GESTAO.FORM_GESTAO_NACIONALIDADES.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_GESTAO.FORM_GESTAO_FILMES_RESUMOS.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_GESTAO.FORM_GESTAO_SESSOES.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\obj\x86\Debug\Cinema_Manager_1._0.FORMS_GESTAO.FORM_GESTAO_ANUNCIOS.resources
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\bin\Debug\ListViewPrinter.dll
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\bin\Debug\MySql.Data.dll
+C:\Users\Haze-Torre\Documents\BitCorp Visual Studio\Cinema Manager\V1\Cinema Manager 1.0\Cinema Manager 1.0\bin\Debug\ObjectListView.dll
